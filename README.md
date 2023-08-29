@@ -1,9 +1,1 @@
 # supermarket-cashier
-
-
-
-
-
-```flowchart
-
-```
