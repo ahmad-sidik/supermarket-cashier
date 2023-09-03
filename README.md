@@ -17,12 +17,12 @@ Dalam repo ini terdapat dua file `.py` yaitu script `main.py` dan modul `script_
 - `self.order_list` digunakan untuk menyimpan list belanjaan user
 - `add_item()` digunakan untuk menambahkan item belanja yang disimpan di `self.order_list`
 - `update_item_name()` digunakan untuk mengupdate nama item
-- `update_item_qty` digunakan untuk mengupdate jumlah item
+- `update_item_qty()` digunakan untuk mengupdate jumlah item
 - `update_item_price()` digunakan untuk mengupdate harga item
 - `delete_item()` digunakan untuk meghapus item
-- `reset_transaction` digunakan untuk menghapus semua item
-- `check_order` digunakan untuk mengecek semua daftar belanja
-- `total_price` digunakan untuk mengecek harga total setelah diskon
+- `reset_transaction()` digunakan untuk menghapus semua item
+- `check_order()` digunakan untuk mengecek semua daftar belanja
+- `total_price()` digunakan untuk mengecek harga total setelah diskon
 
 ### Flowchart
 
