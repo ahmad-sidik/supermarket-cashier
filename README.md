@@ -28,14 +28,14 @@ Dalam repo ini terdapat dua file `.py` yaitu script `main.py` dan modul `script_
 
 ### Penjelasan Kode `script_cashier.py`
 
-- `self.order_list` adalah inisialisasi untuk menyimpan nilai
+- `self.order_list`
 ```py
 def __init__(self):
         # inisialisasi untuk untuk self-service
         # instance self.order_list digunakan untuk menyimpan nilai pembelian
         self.order_list = {}
 ```
-- `add_item` berisi kode yang digunakan untuk mengecek tipe data input dan menambahkan item namun jika nama item sudah sama maka yang akan ditambah adalah jumlah itemnya
+- `add_item`
 ```py
 def add_item(self, item_info):
         ''' 
